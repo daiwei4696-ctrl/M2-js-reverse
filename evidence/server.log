@@ -1,0 +1,2 @@
+[server] http://127.0.0.1:8787  (static: public/   api: POST /api/pay)
+[pay] 2026-09-28T10:18:37.911Z x-key=r2c-4f8a x-ts=1790590717904 ua.len=119 ref="http://127.0.0.1:8787/?nodbg=1" recv=fa3d86c1f21772f7668f3588d7206358 calc=fa3d86c1f21772f7668f3588d7206358

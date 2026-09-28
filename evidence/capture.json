@@ -1,0 +1,36 @@
+{
+  "page": "http://127.0.0.1:8787/?nodbg=1",
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "sid": "lab-sid-2026",
+  "referrer": "",
+  "resultText": "{\"ok\":true,\"orderId\":\"R2C1790590717904\",\"amount\":\"1\",\"serverTs\":1790590717910,\"note\":\"token granted\"}",
+  "requests": [
+    {
+      "kind": "boot",
+      "t": 1790590717366,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+      "sid": null,
+      "referrer": "",
+      "href": "http://127.0.0.1:8787/?nodbg=1",
+      "stack": "Error\n    at rec (<anonymous>:7:20)\n    at <anonymous>:40:3\n    at <anonymous>:42:3"
+    },
+    {
+      "kind": "fetch",
+      "t": 1790590717906,
+      "url": "/api/pay",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "x-key": "r2c-4f8a",
+        "x-sign": "fa3d86c1f21772f7668f3588d7206358",
+        "x-ts": "1790590717904"
+      },
+      "body": "{\"amount\":\"1\",\"ts\":1790590717904}",
+      "stack": "Error\n    at rec (<anonymous>:7:20)\n    at window.fetch (<anonymous>:24:7)\n    at _0x3b77 (http://127.0.0.1:8787/app.obf.js:6:4169)\n    at HTMLButtonElement.<anonymous> (http://127.0.0.1:8787/app.obf.js:6:4556)\n    at <anonymous>:1:32"
+    }
+  ],
+  "consoleLogs": [
+    "[hook] {\"kind\":\"boot\",\"t\":1790590717366,\"ua\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\",\"sid\":null,\"referrer\":\"\",\"href\":\"http://127.0.0.1:8787/?nodbg=1\",\"stack\":\"Error\\n    at rec (<anonymous>:7:20)\\n    at <anonymous>:40:3\\n    at <anonymous>:42:3\"}",
+    "[hook] {\"kind\":\"fetch\",\"t\":1790590717906,\"url\":\"/api/pay\",\"method\":\"POST\",\"headers\":{\"Content-Type\":\"application/json\",\"x-key\":\"r2c-4f8a\",\"x-sign\":\"fa3d86c1f21772f7668f3588d7206358\",\"x-ts\":\"1790590717904\"},\"body\":\"{\\\"amount\\\":\\\"1\\\",\\\"ts\\\":1790590717904}\",\"stack\":\"Error\\n    at rec (<anonymous>:7:20)\\n    at window.fetch (<anonymous>:24:7)\\n    at _0x3b77 (http://127.0.0.1:8787/app.obf.js:6:4169)\\n    at HTMLButtonElement.<anonymous> (http://127.0.0.1:8787/app.obf.js:6:4556)\\n    at <anonymous>:1:32\"}"
+  ]
+}
